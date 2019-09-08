@@ -40,6 +40,7 @@
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 0;
+            this.textBox1.TextChanged += new System.EventHandler(this.textBox1_TextChanged);
             // 
             // button1
             // 
@@ -56,9 +57,9 @@
             this.label1.AutoSize = true;
             this.label1.Location = new System.Drawing.Point(102, 138);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(37, 13);
+            this.label1.Size = new System.Drawing.Size(43, 13);
             this.label1.TabIndex = 2;
-            this.label1.Text = "Result";
+            this.label1.Text = "Result: ";
             // 
             // Form1
             // 
