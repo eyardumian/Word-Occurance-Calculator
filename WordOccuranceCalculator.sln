@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2050
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordCalculator", "WordCalculator\WordCalculator.csproj", "{CF3971EA-C16E-4299-9500-9FAEC38A9DAE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WordOccuranceCalculator", "WordCalculator\WordOccuranceCalculator.csproj", "{CF3971EA-C16E-4299-9500-9FAEC38A9DAE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
