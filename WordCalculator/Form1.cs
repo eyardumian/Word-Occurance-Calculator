@@ -24,24 +24,15 @@ namespace WordCalculator
             String input = textBox1.Text;
             List<string> SplitWords = input.Split(Separator).ToList();
             
-            WordCalculator.CalculateOccurrences(SplitWords);
-
-            MessageBox.Show(SplitWords);
-            //label1.Text = SplitWords.ToList();
-                            
-
-            //List<string> words = new List<string>();
-           // for (int i = 0; i < SplitWords.Length; i++)
-            //{
-                
-            //}
-
-            //WordOccurrences[] obj = WordCalculator.CalculateOccurrences(words);
-
-            //for (int i = 0; i < obj.Length; i++)
-            //{
-              //  String results = obj[i].word + ", " + obj[i].count;
-            //}
+            WordOccurrences[] obj = WordCalculator.CalculateOccurrences(SplitWords);
+            
+            String result = "";
+            for (int i = 0; i < obj.Length; i++)
+            {
+                string temp = obj[i].word + " = " + obj[i].count + "\r\n";
+                result += temp;
+            }
+            label1.Text = result;                                       
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
