@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace WordCalculator
 {
-    class WordOccurrences
+    public class WordOccurrences
     {
         public String word;
         public int count;

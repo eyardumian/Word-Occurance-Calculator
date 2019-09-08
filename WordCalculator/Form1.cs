@@ -29,7 +29,7 @@ namespace WordCalculator
             String result = "";
             for (int i = 0; i < obj.Length; i++)
             {
-                string temp = obj[i].word + " = " + obj[i].count + "\r\n";
+                string temp = obj[i].word + ", " + obj[i].count + "\r\n";
                 result += temp;
             }
             label1.Text = result;                                       
